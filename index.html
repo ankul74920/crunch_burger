@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Crunch</title>
+    <link rel="shortcut icon" href="./Asset/image/crunchfav.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header_main_section page-header">
+        <div class="container">
+            <div class="row web-view">
+                <div class="col-md-4">
+                    <div class="header_left_box">
+                        <img src="./Asset/image/crunchLogow2.png" alt="Header logo">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="header_right_box">
+                        <ul>
+                            <li>
+                                <a class="header_menu" href="/index.html">Home</a>
+                                <a class="header_menu" href="/about.html">About Us</a>
+                                <a class="header_menu" href="/faq.html">FAQ</a>
+                                <a class="header_menu" href="/contact-us.html">Contact Us</a>
+                                <a target="_blank" class="Downlaod_Menu"
+                                    href="./Asset/image/Crunch-Restaurant-Menu-2024.pdf">
+                                    <i class="fa fa-download"></i> Downlaod Menu
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mobile-view">
+                <div class="col-md-8 col-sm-8 col-8">
+                    <div class="header_left">
+                        <img src="./Asset/image/crunchLogow2.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-4 text-right">
+                    <div id="mySidenav" class="sidenav">
+                        <div class="responsive-menu-box">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                            <div class="header_mobile_menu">
+                                <ul>
+                                    <li>
+                                        <a class="header_menu" href="http://127.0.0.1:5500/index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a class="header_menu" href="http://127.0.0.1:5500/about.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a class="header_menu" href="http://127.0.0.1:5500/faq.html">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a class="header_menu" href="http://127.0.0.1:5500/contact-us.html">Contact
+                                            Us</a>
+                                    </li>
+
+                                </ul>
+                                <a target="_blank" class="Downlaod_Menu mob_Downlaod_Menu"
+                                    href="./Asset/image/Crunch-Restaurant-Menu-2024.pdf">
+                                    <i class="fa fa-download"></i> Downlaod Menu
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="responsive-icon" style="font-size:30px;cursor:pointer"
+                        onclick="openNav()">&#9776;</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="premium_main_section">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-md-6">
+                    <div class="premium_left_box">
+                        <h1 class="heading"><span style="color: #EF7F1A;">Premium</span> Crunchiest Burger Restaurant
+                            Near You</h1>
+                        <p class="crunch_text">CRUNCH is A Premium Burger Restaurant, A Brand of SRP FOOD AND BEVERAGE
+                            company is a very upmarket, founded and run by young minds.</p>
+                        <div class="delicious_box">
+                            <div class="delicious">
+                                <img src="./Asset/image/restaurant.png" alt="image">
+                                <p>Delicious</p>
+                            </div>
+                            <div class="delicious">
+                                <img src="./Asset/image/water-drop.png" alt="image">
+                                <p>Delicious</p>
+                            </div>
+                            <div class="delicious">
+                                <img src="./Asset/image/hamburger.png" alt="image">
+                                <p>Delicious</p>
+                            </div>
+                        </div>
+                        <div class="google_play">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.crunch.burgers">
+                                <img class="google_play_img" src="./Asset/image/google-play.png" alt="image"></a>
+                            <a target="_blank" href="https://apps.apple.com/in/app/crunch-premium-burgers/id6476809640">
+                                <img class="app_store_img" src="./Asset/image/appstore-1.png" alt="image"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="premium_right_box">
+                        <img class="premium_burger" src="./Asset/image/Burger-1-1.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Crunch_outlet_main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3">
+                    <h2 class="heading"><span style="color: #EF7F1A;">Crunch</span> Outlets</h2>
+                </div>
+                <div class="col-md-6" data-aos="fade-right" data-aos-offset="1000" data-aos-anchor="#example-anchor">
+                    <div class="Outlet_box">
+                        <div class="outlet_left_box">
+                            <p class="get_direction">Outlet 1</p>
+                            <h3>CRUNCH Vesu, Surat</h3>
+                            <p class="crunch_text">4QRH+FJC White House, G-7, Vesu, Surat, Gujarat 395007</p>
+                            <a href="https://maps.app.goo.gl/we98GfR6B6Fha1vx8" class="get_direction">Get
+                                Direction</a><br><br>
+                            <a href="tel: 09081771999" class="phone_text">
+                                <p><i class="fa fa-phone" aria-hidden="true"></i> 09081771999</p>
+                            </a>
+                        </div>
+                        <div class="outlet_right_box">
+                            <img src="./Asset/image/flying-burger.png" alt="image">
+                        </div>
+                        <div class="round_box"></div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="1000"
+                    data-aos-duration="1000">
+                    <div class="Outlet_box2">
+                        <div class="outlet_left_box">
+                            <p class="get_direction">Outlet 2</p>
+                            <h3>Crunch Station</h3>
+                            <p class="crunch_text">6R4Q+2W2 BESIDE SAVERA RESTAURANT, SUFI BAUGH ROAD, Railway Station
+                                Rd, Surat, Gujarat 395001</p>
+                            <a href="https://maps.app.goo.gl/eB67miWXpb8JTyVe6" class="get_direction">Get
+                                Direction</a><br><br>
+                            <a href="tel: 07862042879" class="phone_text">
+                                <p><i class="fa fa-phone" aria-hidden="true"></i>
+                                    07862042879</p>
+                            </a>
+                        </div>
+                        <div class="outlet_right_box">
+                            <img src="./Asset/image/Chicken-Popcorn.png" alt="image">
+                        </div>
+                        <div class="round_box"></div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="Outlet_box3">
+                        <div class="outlet_left_box">
+                            <p class="get_direction">Outlet 3</p>
+                            <h3>CRUNCH - IBC Piplod, Surat</h3>
+                            <p class="crunch_text">G -2, International Business Center, Surat – Dumas Road, Piplod
+                                395007, Surat, Gujarat</p>
+                            <a href="https://www.google.com/maps/place/International+Business+Center/@21.1578825,72.7688206,20z/data=!3m1!5s0x3be04d8ff1518b55:0x591ff52ded8a356a!4m6!3m5!1s0x3be04dfa683dd4f1:0xb3172139ae72a228!8m2!3d21.1577016!4d72.7692179!16s%2Fg%2F11gxgyc_d0?hl=en-US&entry=ttu"
+                                class="get_direction">Get Direction</a><br><br>
+                            <a href="tel: 09882398871" class="phone_text">
+                                <p><i class="fa fa-phone" aria-hidden="true"></i>
+                                    09882398871</p>
+                            </a>
+                        </div>
+                        <div class="outlet_right_box">
+                            <img src="./Asset/image/feature-poutine1.png" alt="image">
+                        </div>
+                        <div class="round_box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Welcome_crunch_main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="heading"><span style="color: #EF7F1A;">Welcome</span> to Crunch</h2>
+                    <p class="crunch_text">Beginning as a modest restaurant in 2014, CRUNCHⓇ a brand of SRP FOOD AND
+                        BEVERAGE has grown into
+                        one of the most-admired restaurants and has more than 7 years of experience with a restaurant
+                        and a big idea.The restaurant is loved for its purity and taste, true in every mouthful to its
+                        royal origins. It also practices the highest quality and hygiene standards to ensure the
+                        restaurant remains top-notch in all aspects. CRUNCH ensure consistency of taste and quality
+                        through a meticulous application standard operating procedure.</p>
+                </div>
+                <div class="col-md-12" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="Honesty_box">
+                        <div class="honesty">
+                            <img src="./Asset/image/integration-1.png" alt="image">
+                            <h3 class="honesty_text">Honesty</h3>
+                            <p class="honesty_subText">We believe in building trust width our guests, employees and
+                                Customers by conductingn our
+                                busineew transparently and ethically.</p>
+                        </div>
+                        <div class="honesty">
+                            <img src="./Asset/image/working (1).png" alt="image">
+                            <h3 class="honesty_text">Hard Work</h3>
+                            <p class="honesty_subText">We believe there are no shortcust to success. We work hard as a
+                                team to delight our customers which will in turn ensure our continued success.</p>
+                        </div>
+                        <div class="honesty">
+                            <img src="./Asset/image/sanitary1.png" alt="image">
+                            <h3 class="honesty_text">Hospitality</h3>
+                            <p class="honesty_subText">For us, a customer is equivalent to God and we shall always
+                                extend him the greatest welcome and warmest service.</p>
+                        </div>
+                        <div class="honesty">
+                            <img src="./Asset/image/meal1.png" alt="image">
+                            <h3 class="honesty_text">Hygiene</h3>
+                            <p class="honesty_subText">Food is sacred. It is therefore our duty to keep our restaurant
+                                pure by following the most stringent hygiene standards in preparing and serving it.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Scan_menu_main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="Scan_img">
+                        <img src="./Asset/image/Crucnh-menu.jpeg" alt="image">
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="get_the_menu">
+                        <h2 class="heading"><span style="color: #EF7F1A;">Scan to</span> get the menu</h2>
+                        <p class="crunch_text">CRUNCH is A Premium Burger Restaurant, A Brand of SRP FOOD AND BEVERAGE
+                            company is a very upmarket, founded and run by young minds.</p>
+
+                        <div class="delicious_box">
+                            <div class="delicious">
+                                <img src="./Asset/image/restaurant.png" alt="image">
+                                <p>Delicious</p>
+                            </div>
+                            <div class="delicious">
+                                <img src="./Asset/image/water-drop.png" alt="image">
+                                <p>Delicious</p>
+                            </div>
+                            <div class="delicious">
+                                <img src="./Asset/image/hamburger.png" alt="image">
+                                <p>Delicious</p>
+                            </div>
+                        </div><br>
+
+                        <a target="_blank" class="Downlaod_Menu" href="./Asset/image/Crunch-Restaurant-Menu-2024.pdf">
+                            <i class="fa fa-download"></i> Downlaod Menu
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dont_worry_main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="crunch_app_img">
+                        <img src="./Asset/image/crunch-app4-1.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="get_the_menu">
+                        <h2 class="heading"><span style="color: #EF7F1A;">Don't worry</span> ! you can order your food
+                            just by phone</h2>
+
+                        <div class="Free_Delivery">
+                            <div class="Delivery_img">
+                                <img src="./Asset/image/free-delivery.png" alt="image">
+                            </div>
+                            <h3>Free Delivery</h3>
+                        </div>
+                        <div class="Free_Delivery">
+                            <div class="Delivery_img">
+                                <img src="./Asset/image/money.png" alt="image">
+                            </div>
+                            <h3>Special Promo</h3>
+                        </div>
+
+                        <div class="google_play">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.crunch.burgers">
+                                <img class="google_play_img" src="./Asset/image/google-play.png" alt="image"></a>
+                            <a target="_blank" href="https://apps.apple.com/in/app/crunch-premium-burgers/id6476809640">
+                                <img class="app_store_img" src="./Asset/image/appstore-1.png" alt="image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="customer_review_main_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3">
+                    <h2 class="heading"><span style="color: #EF7F1A;">Customer</span> Review</h2>
+                </div>
+                <div class="col-md-12" data-aos="fade-up" data-aos-duration="3000">
+                    <div>
+                        <div class="gallery customerReview portfolio_slider">
+                            <div class="inner">
+                                <div class="slider_text_box">
+                                    <p>Surat's own fried chicken burger place. It's much better than KFC. Quality of
+                                        food is good. Sauces are appropriately spicy, as mentioned in their spice level
+                                        chart. Their peri peri crunchy chicken burger is perfect for Indian taste
+                                        palate. Need to improve their dine-in decor and atmosphere.
+                                    </p>
+                                    <div class="review_name">
+                                        <h3>Naimish Patel</h3>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="slider_text_box">
+                                    <p>Crazy Yummy chicken burgers. Please visit if you donot like oily KFC but still
+                                        want to have crispy chicken. Chicken Popcorn which they serve is heaven. A
+                                        little more spice could have been added though.
+                                        Slush is absolutely yum. Especially the cola slush.</p>
+
+                                    <div class="review_name">
+                                        <h3>Abhas Dudeja</h3>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="slider_text_box">
+                                    <p>Located in “White House” building along VIP Road Vesu. Crunch is a fabulous
+                                        restaurant serving varieties of Veg and Non Veg food. Caribbean Chicken Wings,
+                                        Chicken Popcorns, Fish Popcorn etc are awesome. Crunch burger with pepper
+                                        roasted chicken is a must try item.</p>
+
+                                    <div class="review_name">
+                                        <h3>Saran Nair</h3>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="slider_text_box">
+                                    <p>My brother took me there and it's just awesome. We did try Chicken Popcorn with
+                                        Mango Jalapeno and Peri Peri Dip, Roasted Chicken Drumstick and Whole Wheat
+                                        Crunchy Maxicana Burger. I personally recommend it. All times are just </p>
+
+                                    <div class="review_name">
+                                        <h3>Mehul Fanawala</h3>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="slider_text_box">
+                                    <p>Love their slushes, price of burgers is fine, a Desi Burger King you may call
+                                        them, matching perfect with Indian taste in burgers, :D. Recommended for Light
+                                        food craving, no washroom though, service speed may get affected in pick time,
+                                        but worth waiting I must say.</p>
+
+                                    <div class="review_name">
+                                        <h3>Dhruv Soni</h3>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner">
+                                <div class="slider_text_box">
+                                    <p>Peri peri chicken burger and cheesy cheese chicken burger are the best! Chicken
+                                        popcorn is a must add-on! It's a treat for chicken lover's while Veg lover's can
+                                        try Veg Mexicana, Masala Paneer Grilled and Peri-Peri Grilled Paneer burger!
+                                        It's a meal you would love to cheat!</p>
+
+                                    <div class="review_name">
+                                        <h3>Utkarsh Gupta</h3>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="delicious_pick_main_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3">
+                    <h2 class="heading"><span style="color: #EF7F1A;">Take your</span> delicious pick</h2>
+                </div>
+                <div class="col-md-12">
+                    <div class="gallery deliciousSlider portfolio_slider">
+                        <div class="inner">
+                            <div class="delicious_img">
+                                <img class="slider-img" src="./Asset/image/delicious-img (1).jpeg">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <div class="delicious_img">
+                                <img class="slider-img" src="./Asset/image/delicious-img (3).jpeg">
+                            </div>
+
+                        </div>
+                        <div class="inner">
+                            <div class="delicious_img">
+                                <img class="slider-img" src="./Asset/image/delicious-img (4).jpeg">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <div class="delicious_img">
+                                <img class="slider-img" src="./Asset/image/delicious-img (5).jpeg">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <div class="delicious_img">
+                                <img class="slider-img" src="./Asset/image/delicious-img (2).jpeg">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <div class="delicious_img">
+                                <img class="slider-img" src="./Asset/image/delicious-img (6).jpeg">
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <div class="delicious_img">
+                                <img class="slider-img" src="./Asset/image/delicious-img (7).jpeg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Chicken_wings_main_section">
+        <div class="bg_overflow"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h3 class="wings">Chicken wings</h3>
+                    <h3 class="fiery">Just being lil extra fiery!</h3>
+                    <p class="wings_text">Foodies of all ages enjoy and appreciate Fast Food. When you have an urge to
+                        binge on
+                        mouthwatering and alluring meals to satisfy a food yearning, the restaurants can provide you
+                        with a variety of options.</p><br>
+                    <a target="_blank" class="Downlaod_Menu" href="./Asset/image/Crunch-Restaurant-Menu-2024.pdf">
+                        <i class="fa fa-download"></i> Downlaod Menu
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer_main_section">
+        <div class="footer_overflow"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-12">
+                    <div class="footer_left">
+                        <img class="footer_logo" src="./Asset/image/crunchLogow1.png" alt="footer logo">
+                        <p class="crunch_text">CRUNCH is A Premium Burger Restaurant, A Brand of SRP FOOD AND BEVERAGE
+                            company is a very
+                            upmarket, founded and run by young minds.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-5">
+                    <div class="Support_link">
+                        <h3>Support</h3>
+                        <ul>
+                            <li>
+                                <a class="footer_link" href="">Home</a>
+                            </li>
+                            <li>
+                                <a class="footer_link" href="">About Us</a>
+                            </li>
+                            <li>
+                                <a class="footer_link" href="">FAQ</a>
+                            </li>
+                            <li>
+                                <a class="footer_link" href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-7 pl-0">
+                    <div class="Support_link">
+                        <h3>Phone</h3>
+                        <a href="tel:9327936605" class="footer_call"><i class="fa fa-phone" aria-hidden="true"></i>
+                            +91 9327936605</a>
+                    </div>
+                    <div class="Support_link mt-4">
+                        <h3>Email</h3>
+                        <a href="mailto:crm@thecrunchburger.com" class="footer_call"><i class="fa fa-envelope-o"
+                                aria-hidden="true"></i>
+                            crm@thecrunchburger.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="Support_link ">
+                        <h3>Address</h3>
+                        <p class="footer_call"><i class="fa fa-map-marker" aria-hidden="true"></i> G-7, White House,
+                            V.I.P Road, Vesu. Surat - 395007, Gujarat, India.</p>
+                        <p class="footer_call"><i class="fa fa-map-marker" aria-hidden="true"></i> G-2, International
+                            Business Center, Surat - Dumas Road, Piplod 395007, Surat, Gujarat</p>
+                        <p class="footer_call"><i class="fa fa-map-marker" aria-hidden="true"></i> G -3,4 Sufi Baug,
+                            Surat Railway Station Road, Surat 395001, Gujarat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="All_rights">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="privacy_policy">
+                            <p>© 2024 The Crunch Burger. All rights reserved.</p>
+                            <a href="https://thecrunchburger.com/privacy-policy/">Privacy Policy</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+
+        let data = [2, 3, 4, 4, 5, 6, 5, 4, 9];
+        // data.length = 5
+        // console.log(data);
+
+        // let add = data.reduce((x, y) => x+y);
+        // console.warn(add);
+
+        // let unique = new Set(data);
+        // console.log(unique);
+
+        //let x=20 , y=30;
+        //[x,y] = [y,x]
+        //console.log(x,y);
+
+        // promise Return
+
+        async function myFun(){
+            return"Ankul";
+        }
+        const res = myFun;
+        console.log(res);
+
+
+
+
+
+
+
+
+        $('.customerReview').slick({
+            dots: false,
+            infinite: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            slidesToShow: 3,
+            lidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+
+        $('.deliciousSlider').slick({
+            dots: true,
+            infinite: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            slidesToShow: 4,
+            lidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 50) {
+                header.classList.add(toggleClass);
+            } else {
+                header.classList.remove(toggleClass);
+            }
+        });
+
+        AOS.init();
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
